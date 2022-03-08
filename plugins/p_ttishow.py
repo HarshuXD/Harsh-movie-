@@ -37,8 +37,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('🆘 Help', url=f"https://t.me/SamanthaMoviesBot?start=help"),
-            InlineKeyboardButton('Share Me ♂️', url='https://t.me/share/url?url=%F0%9F%99%8B%E2%80%8D%E2%99%82%20Hai%20Everyone%20%0A%0AToday%20I%20Just%20Found%20A%20Best%20Movies%20Search%20Bot.%20This%20Bot%20Can%20Search%20Telegram%20Movies%20Files%0A%0A%F0%9F%A4%96%20Bot%20Link%20%3A%20%40SamanthaMoviesBot%0A%0A%F0%9F%93%A5%20Bots%20Channel%20%3A%20%40TeleRoidGroup')
+            InlineKeyboardButton('🆘 Help', url=f"https://t.me/FileSearcherRoBot?start=help"),
+            InlineKeyboardButton('Share Me ♂️', url='https://t.me/share/url?url=%F0%9F%99%8B%E2%80%8D%E2%99%82%20Hai%20Everyone%20%0A%0AToday%20I%20Just%20Found%20A%20Best%20Movies%20Search%20Bot.%20This%20Bot%20Can%20Search%20Telegram%20Movies%20Files%0A%0A%F0%9F%A4%96%20Bot%20Link%20%3A%20%40FileSearcherRoBot%0A%0A%F0%9F%93%A5%20Channel%20%3A%20%40StarterChannel')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -65,7 +65,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('Support', url=f'https://t.me/Harshu_XD')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -103,12 +103,12 @@ async def disable_chat(bot, message):
     await message.reply('Chat Succesfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('⭕ Support ⭕', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('⭕ Support ⭕', url=f'https://t.me/Harshu_xD')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat_, 
-            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support group.</b> \nReason : <code>{reason}</code>',
+            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my master.</b> \nReason : <code>{reason}</code>',
             reply_markup=reply_markup)
         await bot.leave_chat(chat_)
     except Exception as e:
