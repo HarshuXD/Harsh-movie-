@@ -1,21 +1,19 @@
 class script(object):
     START_TXT = """Hello {} 👨‍💻,
-My Name is <a href='https://t.me/SamanthaSearchBot'>Samantha Movies Bot</a>
+My Name is <a href='https://t.me/FileSearcherRoBot'>Harsh Movie Bot</a>
 I Can Provide Movies In Telegram Groups. You Can Search Movies Via Inline. I Can Also Add Filters In Telegram Groups.
 Just Add Me To Your Group And Enjoy Of All Available Movies On TG.
-Made With ❤ BY @TeleRoidGroup"""
+Made With ❤ BY @Harshu_xD"""
     HELP_TXT = """Hell'O {}
 Here is the Help For My Bot Commands."""
     ABOUT_TXT = """☞ My Name: Sam Movies
-☞ Developer: @TheTeleRoid
+☞ Developer: @Harshu_xD
 ☞ Library: Pyrogram
 ☞ Language: Python 3
 ☞ DataBase: Mongo DB
 ☞ Bot Server: Heroku
 ☞ Build Status: v1.0.1 [Beta]
-☞ Updates:<a href='https://t.me/TeleRoidGroup'>@𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍𝙶𝚛𝚘𝚞𝚙</𝚊>
-☞ Support: <a href='https://t.me/TeleRoid14'> @𝚃𝚎𝚕𝚎𝚁𝚘𝚒𝚍14</𝚊>
-☞ BotsList" : <a href='https://t.me/TheTeleRoid'> @𝙿𝙷𝙻𝚒𝚜𝚝𝙱𝚘𝚝</𝚊>"""
+☞ Support: <a href='https://t.me/Harshu_xD'> @Harshu_XD</𝚊>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/PredatorHackerzZ/SamanthaMoviesBot
