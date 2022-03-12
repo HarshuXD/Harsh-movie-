@@ -6,7 +6,7 @@ Just Add Me To Your Group And Enjoy Of All Available Movies On TG.
 Made With ❤ BY @Harshu_xD"""
     HELP_TXT = """Hell'O {}
 Here is the Help For My Bot Commands."""
-    ABOUT_TXT = """☞ My Name: Sam Movies
+    ABOUT_TXT = """☞ My Name: Harsh Movie Bot
 ☞ Developer: @Harshu_xD
 ☞ Library: Pyrogram
 ☞ Language: Python 3
@@ -103,8 +103,12 @@ This module only works for my admins
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
+Bot - @FileSearcherRobot
+⚜️𝙱𝚘𝚝 𝙱𝚢 - @𝙷𝚊𝚛𝚜𝚑𝚞_𝚡𝙳
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
+Bot - @FileSearcherRobot
+⚜️𝙱𝚘𝚝 𝙱𝚢 - @𝙷𝚊𝚛𝚜𝚑𝚞_𝚡𝙳
 """
