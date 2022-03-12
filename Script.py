@@ -98,17 +98,18 @@ This module only works for my admins
 ✪ Total Users: <code>{}</code>
 ✪ Total Chats: <code>{}</code>
 ✪ Used Storage: <code>{}</code> 𝙼𝚒𝙱
-✪ Free Storage: <code>{}</code> 𝙼𝚒𝙱"""
+✪ Free Storage: <code>{}</code> 𝙼𝚒𝙱
+✪ 𝙱𝚘𝚝 𝙱𝚢 - @𝙷𝚊𝚛𝚜𝚑𝚞_𝚡𝙳"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 Bot - @FileSearcherRobot
-⚜️𝙱𝚘𝚝 𝙱𝚢 - @𝙷𝚊𝚛𝚜𝚑𝚞_𝚡𝙳
+⚜️ 𝙱𝚘𝚝 𝙱𝚢 - @𝙷𝚊𝚛𝚜𝚑𝚞_𝚡𝙳
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
 Bot - @FileSearcherRobot
-⚜️𝙱𝚘𝚝 𝙱𝚢 - @𝙷𝚊𝚛𝚜𝚑𝚞_𝚡𝙳
+⚜️ 𝙱𝚘𝚝 𝙱𝚢 - @𝙷𝚊𝚛𝚜𝚑𝚞_𝚡𝙳
 """
